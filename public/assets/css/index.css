@@ -1,0 +1,586 @@
+/* custom */
+
+@font-face {
+  font-family: candara;
+  src: url(../font/CANDARA.TTF);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+nav {
+  padding: 15px 5%;
+  background: #fff;
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+}
+
+nav img {
+  height: 40px;
+}
+
+label {
+  font-size: 14px;
+}
+
+.input {
+  width: -webkit-fill-available;
+  padding: 10px 25px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+}
+
+.input:focus {
+  outline-color: #87d6c0;
+}
+
+.input::placeholder {
+  color: #a5a5a5;
+}
+
+.other-line hr {
+  width: 40%;
+  margin-top: 0.8rem;
+  border: 0;
+  border-top: 1px solid #dedede;
+}
+
+.pagination a {
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+}
+
+.status-bar {
+  width: fit-content;
+  padding: 7px 14px;
+  background: #FDEDED;
+  border-radius: 50px;
+}
+
+.status-bar div {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.status-bar h5 {
+  margin-top: -2px;
+}
+
+/* login */
+
+.auth-form {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 0 5%;
+}
+
+.auth-form .banner {
+  padding: 7vh 5% 0 5%;
+}
+
+.auth-form .banner img {
+  width: 100%;
+}
+
+.auth-form .form {
+  padding: 45px 5%;
+}
+
+/* dashboard */
+
+.dash-header {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  background: linear-gradient(to right, #F2AE83, #CC5ABA, #4258D1);
+  border-radius: 10px;
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+  color: #fff;
+}
+
+.dash-header .count-info {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.dash-header .count-info a {
+  background: #5750bb;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.dash-header .count-info a:hover {
+  background: #4a42b3;
+}
+
+.dash-header .count-info a img {
+  width: 50px;
+  height: 50px;
+}
+
+.dash-header .count-info a div {
+  width: 65%;
+  padding-right: 10px;
+  color: #fff;
+}
+
+.dash-header .count-info a div h5 {
+  margin: 5px 0 0;
+  font-weight: 300;
+}
+
+.dash-header .acc-info .acc-img {
+  width: 65px;
+  height: 65px;
+  background: url('../img/index/joyce.jpg');
+  background-size: cover !important;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.dash-body {
+  display: grid;
+  grid-template-columns: 65% 35%;
+}
+
+.dash-body .headline-dash {
+  width: 100%;
+  height: 20em;
+  background: linear-gradient(to right, #84c7ef, #4C44B3);
+  border-radius: 10px;
+}
+
+.dash-body .headline-dash .img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/index/bg/bg-dash.jpeg");
+  background-size: cover;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.dash-body .list-dash .list-rel {
+  height: 7.5em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px -6px #b3b3b3;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.dash-body .list-dash .list-rel:hover {
+  opacity: 0.7;
+}
+
+.dash-body .list-dash .list-rel .txt-rel {
+  padding-top: 5.5em;
+}
+
+.list-record .menu-record {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 2px 12px -6px #b3b3b3;
+  border-radius: 10px;
+}
+
+.list-record .menu-record img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.list-record .menu-record a {
+  color: #000;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* customer page */
+
+.search-form {
+  width: 70%;
+  height: 3em;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+}
+
+.search-form img {
+  height: 25px;
+  margin-top: 0.7em;
+}
+
+.search-form input {
+  width: 70%;
+  height: -webkit-fill-available;
+  padding-left: 4em;
+  border: 0;
+}
+
+.search-form input:focus {
+  outline: none;
+}
+
+.search-form input, .search-form input::placeholder {
+  font-size: 0.9rem;
+}
+
+.search-form button {
+  padding: 15px 3em !important;
+  background: #5750bb;
+  color: #fff;
+}
+
+.post-form {
+  width: 68%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+}
+
+.post-form input {
+  border: 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.post-form input:focus {
+  outline: 0;
+  border-bottom: 1px solid #4640DE;
+  border-radius: 0;
+  transition: 0.6s;
+}
+
+.post-form button {
+  padding: 15px 3em !important;
+  background: #5750bb;
+  color: #fff;
+}
+
+.tools-todo {
+  width: 20.5%;
+  height: 3em;
+  right: 2.5%;
+  padding: 1.4em 1.4em 0.6em;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px -6px #b3b3b3 !important;
+}
+
+.tools-todo a {
+  margin-right: 5%;
+}
+
+.custom-body .pagination {
+  width: 20%;
+}
+
+.custom-body .pagination a {
+  margin-right: 3px;
+  padding: 0.7em 1em;
+  background: rgb(226, 226, 226);
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.custom-body .table {
+  padding: 0.5em 2.5em 1em;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.custom-body .result-transaksi {
+  width: 80%;
+  padding: 0 10%;
+}
+
+.custom-body .table .row {
+  display: grid;
+  grid-template-columns: 7.5% 25% 35% 12.5%;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.custom-body .result-transaksi .row {
+  grid-template-columns: 30% 25% 20% 25%;
+}
+
+.custom-body .table .column {
+  padding: 1em 0.5em 0;
+}
+
+.custom-body .table img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.custom-body .table .tools {
+  right: 5%;
+}
+
+.custom-body .table .tools a, .tools-todo a {
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+  background: #EBEAFC;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.custom-body .table .tools button {
+  all: unset;
+  cursor: pointer;
+}
+
+.custom-body .table .tools a img, .tools-todo a img {
+  width: 18px;
+  height: 18px;
+}
+
+.result-hasil {
+  display: grid;
+  grid-template-columns: 30% 25% auto;
+  padding: 0 0.5em;
+}
+
+@media only screen and (max-width: 1150px) {
+  /* login */
+  .auth-form .banner {
+    padding: 10vh 0 0;
+  }
+  .auth-form .form {
+    padding: 25px 0 0 5%;
+  }
+  /* dashboard */
+  .dash-header {
+    grid-template-columns: 40% 60%;
+  }
+  /* customer */
+  .search-form, .post-form {
+    display: block !important;
+    width: auto;
+  }
+  .tools-todo {
+    display: block !important;
+    width: initial;
+    position: inherit !important;
+    margin-top: 1em;
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  /* dashboard */
+  .dash-body .list-dash .list-rel {
+    height: 7em;
+  }
+  .dash-body .list-dash .list-rel .txt-rel {
+    padding-top: 5em;
+  }
+  .dash-body .list-record {
+    margin-left: 1em;
+  }
+  .search-form input {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  /* login */
+  .auth-form {
+    grid-template-columns: 55% 45%;
+  }
+  .auth-form .banner {
+    padding: 13vh 0 0;
+  }
+  /* dashboard */
+  .dash-header {
+    grid-template-columns: 35% 65%;
+  }
+  .dash-body .list-dash .list-rel {
+    height: 5.5em;
+  }
+  .dash-body .list-dash .list-rel .txt-rel {
+    padding-top: 3.5em;
+  }
+  .custom-body .table {
+    padding: 0.5em 1em 1em;
+  }
+  .custom-body .table .row {
+    grid-template-columns: 10% 25% 35% 12.5%;
+  }
+  .custom-body .table .column {
+    padding: 0.4em 0.5em 0;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* login */
+  .auth-form {
+    display: block;
+  }
+  .auth-form .banner {
+    display: none;
+  }
+  .auth-form .form {
+    padding: 0 5%;
+  }
+  /* dashboard */
+  .dash-header .count-info a {
+    height: 50px;
+  }
+  .dash-header .count-info a img {
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+  }
+  .dash-body {
+    display: block;
+  }
+  .dash-body .list-record {
+    margin-top: 2em;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /* dashboard */
+  .dash-header {
+    display: block;
+  }
+  .dash-header .m-4 {
+    margin: 1em;
+  }
+  .dash-header .acc-info {
+    margin-bottom: 1em;
+  }
+  .dash-header .acc-info .acc-img {
+    display: block;
+    margin-left: 0;
+  }
+  .dash-header .count-info {
+    grid-template-columns: 34% 34% 34%;
+  }
+  .dash-header .count-info a {
+    padding-left: 0.5em;
+  }
+  .dash-body .list-dash .ml-2 {
+    margin-left: 5px;
+  }
+  /* customer */
+  .custom-body .table {
+    width: 150%;
+  }
+  .custom-body .table .tools {
+    right: -44%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  /* dashboard */
+  .dash-body .list-dash .list {
+    overflow: auto;
+  }
+  .dash-body .list-dash .list::-webkit-scrollbar {
+    width: 0;
+  }
+  .dash-body .list-dash .list-rel {
+    min-width: 50%;
+  }
+  .dash-body .list-dash .list-rel h4 {
+    position: inherit;
+  }
+  /* customer */
+  .search-form {
+    padding: 0.5em !important;
+  }
+  .search-form button {
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 12px 1.5em !important;
+    font-size: 11px;
+  }
+  .search-form input, .search-form input::placeholder {
+    width: 55%;
+    font-size: 12px;
+  }
+  .search-form img {
+    height: 19px;
+    margin-top: 0.9em;
+  }
+  .table h4 {
+    font-size: 14px;
+  }
+  .table h5 {
+    font-size: 11px;
+  }
+  .custom-body .table img {
+    width: 45px;
+    height: 45px;
+  }
+  .custom-body .table .column {
+    padding: 0.7em 0.5em 0;
+  }
+  .status-bar div {
+    width: 13px;
+    height: 13px;
+  }
+  .status-bar h5 {
+    margin-top: -1.5px;
+  }
+  .custom-body .table .tools a {
+    width: 15px;
+    height: 15px;
+  }
+  .custom-body .table .tools a img {
+    width: 15px;
+    height: 16px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  nav {
+    padding: 15px 10%;
+  }
+  /* login */
+  .auth-form .form {
+    padding: 0 5% 4em;
+  }
+  /* dashboard */
+  .dash-header .count-info a img {
+    display: none;
+  }
+  .dash-header .count-info a div {
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+  }
+  .dash-header .count-info a div {
+    font-size: 14px;
+  }
+  .dash-header .count-info a div h5 {
+    font-size: 11px;
+  }
+  /* customer */
+  .custom-body .table {
+    width: 175%;
+  }
+  .custom-body .table .tools {
+    right: -71%;
+  }
+  .dash-header .count-info a {
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  /* customer */
+  .custom-body .table {
+    width: 200%;
+  }
+  .custom-body .table .tools {
+    right: -92%;
+  }
+}
